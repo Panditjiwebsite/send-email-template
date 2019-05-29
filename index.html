@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+    .nav_btn{
+        background: white;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                padding: 0px 25px 0px 25px;
+                font-weight: bold;
+                margin-right: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Meny Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #57b846 !important;">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item nav_btn">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+                <li class="nav-item nav_btn">
+                        <a class="nav-link" href="#">Generate Coupon</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Meny Bar End -->
+
+    <br>
+
+    <!-- Pending Messages -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <table class="table">
+                    <h4>Last 10 Customers</h3>
+                    <tr style="background-color: #C64545 !important; color:white;">
+                        <th>Phone Number</th>
+                        <th>Name</th>
+                        <th>Time of Subscription</th>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table">
+                        <h4>Last 10 Sent Messages</h3>
+                    <tr style="background-color: #2D5772 !important; color:white;">
+                        <th>WhatsApp Name</th>
+                        <th>Phone Number</th>
+                        <th>Type</th>
+                        <th>Message</th>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table">
+                        <h4>Pending Messages</h4>
+                    <tr style="background-color: #1AA85C !important; color:white;">
+                        <th>WhatsApp Name</th>
+                        <th>Phone Number</th>
+                        <th>Type</th>
+                        <th>Message</th>
+                    </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Image -->
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h4 class="text-center">Scan QR Code</h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/QR_code_Wikimedia_Commons_%28URL%29.png" class="img-fluid">
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
